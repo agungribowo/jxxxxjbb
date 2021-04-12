@@ -1,0 +1,359 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+        #grad1 {
+          text-align: center;
+border-radius: 10px;
+    background: -webkit-linear-gradient(left,#1b364a , #c03862); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#1b364a , #c03862); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#1b364a , #c03862); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#1b364a , #c03862); /* Standard syntax (must be last) */
+    }
+
+    #grad2 {
+       text-align: center;
+                  border-radius: 10px;
+                    background: -webkit-linear-gradient(left, #1b364a , #64a3ba); /* For Safari 5.1 to 6.0 */
+                    background: -o-linear-gradient(right,  #1b364a , #64a3ba); /* For Opera 11.1 to 12.0 */
+                    background: -moz-linear-gradient(right,  #1b364a , #64a3ba); /* For Firefox 3.6 to 15 */
+                    background: linear-gradient(to right,  #1b364a , #64a3ba); /* Standard syntax (must be last) */
+
+    }
+
+    #grad3 {
+       text-align: center;
+border-radius: 10px;
+                    background: -webkit-linear-gradient(left, #1b364a , #fbb06e); /* For Safari 5.1 to 6.0 */
+                    background: -o-linear-gradient(right,#1b364a , #fbb06e); /* For Opera 11.1 to 12.0 */
+                    background: -moz-linear-gradient(right, #1b364a , #fbb06e); /* For Firefox 3.6 to 15 */
+                    background: linear-gradient(to right, #1b364a , #fbb06e); /* Standard syntax (must be last) */
+
+    }
+
+    #grad4 {
+       text-align: center;
+border-radius: 10px;
+            background: -webkit-linear-gradient(left, #1b364a , #999999); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right,#1b364a , #999999); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, #1b364a , #999999); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, #1b364a , #999999); /* Standard syntax (must be last) */
+
+    }
+
+       #grad5 {
+       text-align: center;
+border-radius: 10px;
+                    background: -webkit-linear-gradient(left, #1b364a , #8ffca2); /* For Safari 5.1 to 6.0 */
+                    background: -o-linear-gradient(right,#1b364a , #8ffca2); /* For Opera 11.1 to 12.0 */
+                    background: -moz-linear-gradient(right, #1b364a , #8ffca2); /* For Firefox 3.6 to 15 */
+                    background: linear-gradient(to right, #1b364a , #8ffca2); /* Standard syntax (must be last) */
+
+    }
+
+
+    #gradp {
+border-radius: 10px;
+            background-color: #4c4c4c;
+
+    }
+    .widget
+                  {
+                    margin-top:0px;
+                    margin-bottom:0px
+                    }.widget__header
+                    {position:relative;
+                      width:calc(100% + 0px);
+                      overflow:hidden
+                    }
+                  .no-padding--lr .widget__header
+                  {padding-left:25px;
+                    padding-right:25px
+                  }
+                  .no-padding .widget__header
+                  {padding:25px 25px 0}
+                  .widget__title
+                  {float:left;
+                    padding-right:10px;
+                    display:inline-block;
+                    background-color:rgba(0,0,0,.3);
+                    height:64px;
+                    width:calc(100% - 130px);
+                    line-height:68px
+                  }
+
+    }
+
+
+    .c--anim-btn span {
+ /* color: white;*/
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.c--anim-btn, .c-anim-btn {
+  transition: 0.3s;     
+}
+
+.c--anim-btn {
+  height: 64px;
+  font: normal normal 700 1em/4em Arial,sans-serif;
+  overflow: hidden;
+  width: 200px;
+  background-color: #3b5998;
+}
+
+.c-anim-btn{
+  margin-top: 0em;   
+}
+
+.c--anim-btn:hover .c-anim-btn{
+  margin-top: -4em;
+}
+
+
+
+
+
+.btn.blue {
+    border-color: #1c7dfa;
+}
+.btn.fixed {
+    width: 90px;
+}
+.btn__showcase2 .btn {
+    margin: 10px;
+}
+
+.btn {
+   /* background-color: transparent;*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.4);
+    padding: 4px 20px;
+    position: relative;
+   /* color: rgba(255,255,255,.9);*/
+    font-weight: 100;
+    -webkit-transition: background-color 250ms,border 250ms;
+    transition: background-color 250ms,border 250ms;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.table1 {
+    font-family: arial, sans-serif;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #4c4c4c;
+}
+.table1 th, td { 
+  font-size: 14px;
+  border-radius: 10px;
+text-align: center;
+
+ padding: 15px;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 11px;
+/*  color: #fff;*/
+ }
+
+ .table1 th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  /*color: #fff;*/
+  text-transform: uppercase;
+  border: 1px solid
+}
+
+
+div.absolute {
+   /* position: absolute;*/
+    top: 200px;
+    right: 0;
+    width: 280px;
+    height: 90px;
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 8px;
+
+}
+div.absolute1 {
+    position: absolute;
+    top: 400px;
+    width: 180px;
+    height: 190px;
+    border: 1px solid #73AD21;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 8px;
+
+}
+
+div.listindo {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    width: 100%;
+    height: ;
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 8px;
+
+}
+
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+table.absolute {
+    position: absolute;
+    padding: 0px;
+}
+
+th.absolute {
+  font-size: 8px;
+}
+
+ul {list-style-type: none;}
+
+.list-unstyled{padding-left:0;
+              list-style:none;}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    height: 150px;
+}
+
+.column a {
+    float: none;
+   /* color: #fff;*/
+    padding: 3px;
+    padding-left: 35px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+
+.column a:hover {
+    background-color: #c03862;
+}
+
+.column_panjang {
+    float: left;
+    width: 22%;
+    padding: 5px;
+    height: 250px;
+}
+
+.column_panjang a {
+    float: none;
+    /*color: #fff;*/
+    padding: 3px;
+    padding-left: 35px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+
+.column_panjang a:hover {
+    background-color: #c03862;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*h3{color: #fff}
+*/
+
+ a{ text-decoration: none;
+ }
+
+
+svg a
+      {
+       text-decoration: none;
+      }
+
+
+.header{
+
+    overflow: hidden;
+  
+   padding: 30px 30px;
+   
+     background: blue; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#275775, #0e3349); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#275775, #0e3349); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#275775, #0e3349); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#275775, #0e3349); /* Standard syntax */
+    color: white;
+}
+
+.marquee{font-size: 14px;
+font-weight: bold;
+
+}
+
+.column1 {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+}

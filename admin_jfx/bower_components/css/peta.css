@@ -1,0 +1,214 @@
+
+svg .dasar
+			{
+				fill: #983B57;
+				fill-opacity: 1;
+				stroke:#000;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+
+			.dasar:hover{
+			fill:#9ec9c9;
+			}
+			cursor:pointer;
+
+
+
+			text{
+  display:none;
+  fill:#fff;
+  font-size:2em;
+  font-family:sans-serif;
+}
+
+text.text-dasar{
+  display:none;
+  fill:#ffddaa;
+  font-size:2.8em;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+
+/*sumut*/
+svg .lima
+			{
+				fill: #33A27E;
+				fill-opacity: 1;
+				stroke:#000;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+
+			.lima:hover{
+			fill:#9ec9c9;
+			}
+			cursor:pointer;
+
+
+
+			text{
+  display:none;
+  fill:#fff;
+  font-size:2em;
+  font-family:sans-serif;
+}
+/*sumut*/
+svg .dibawah
+			{
+				fill: #E2A02B;
+				fill-opacity: 1;
+				stroke:#000;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+
+			.dibawah:hover{
+			fill:#9ec9c9;
+			}
+	 cursor:pointer;
+
+
+
+			text{
+  display:none;
+  fill:#fff;
+  font-size:2em;
+  font-family:sans-serif;
+}
+
+
+
+
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text]{
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 12px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+/*.topnav {
+  overflow: hidden;
+}*/
+
+input {border-radius: 10px; color: #fff}
+
+li{font-size: 12px; color: #1f3c3c; font-weight: bold;}
+
+a {color: #1f3c3c;}
+p {color: #000;
+    font-weight: bold;}
+
+.samping {
+  font-size: 8px;
+}
+
+
+
+      .modal {
+    display: show; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width:40%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+     background: -webkit-linear-gradient(left, #1b364a , #fbb06e); /* For Safari 5.1 to 6.0 */
+                    background: -o-linear-gradient(right,#1b364a , #fbb06e); /* For Opera 11.1 to 12.0 */
+                    background: -moz-linear-gradient(right, #1b364a , #fbb06e); /* For Firefox 3.6 to 15 */
+                    background: linear-gradient(to right, #1b364a , #fbb06e); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}

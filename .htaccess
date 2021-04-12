@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+
+ Header set X-XSS-Protection: "1; mode=block"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-Content-Type-Options "nosniff"
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteRule ^home$ media?hal=home [L]
+
+Options All -Indexes
+ErrorDocument 403 http://10.11.11.12:444/jfx_master/jfx_fix/error/403.php
+</IfModule>

@@ -1,0 +1,88 @@
+
+svg .dasar
+			{
+					fill: #983B57;
+				fill-opacity: 1;
+				stroke:#000;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+
+			.dasar:hover{
+			fill:#0e3349;
+			}
+			cursor:pointer;
+
+
+
+			text{
+  display:none;
+  fill:#fff;
+  font-size:2em;
+  font-family:sans-serif;
+}
+
+text.text-dasar{
+  display:none;
+  fill:#ffddaa;
+  font-size:2.8em;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+
+/*sumut*/
+svg .lima
+			{
+				fill: #33A27E;
+				fill-opacity: 1;
+				stroke:#000;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+
+			.lima:hover{
+			fill:#0e3349;
+			}
+			cursor:pointer;
+
+
+
+			text{
+  display:none;
+  fill:#fff;
+  font-size:2em;
+  font-family:sans-serif;
+}
+/*sumut*/
+svg .dibawah
+			{
+				fill: #E2A02B;
+				fill-opacity: 1;
+				stroke:#000;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+
+			.dibawah:hover{
+			fill:#0e3349;
+			}
+			cursor:pointer;
+
+
+
+			text{
+  display:none;
+  fill:#fff;
+  font-size:2em;
+  font-family:sans-serif;
+}
+
+
+h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h3{font-size: 15px;
+font-weight: bold;}
